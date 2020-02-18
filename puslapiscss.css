@@ -1,142 +1,131 @@
-	body {
- 		background-image: url('front_page_PNG.png');
- 		height: 120vh;
- 		background-size: auto 100%;
- 		background-position: center;
-	}
+body {
+ 	background-image: url('front_page_PNG.png');
+ 	height: 100vh;
+ 	overflow: hidden;
+ 	background-size: auto 100%;
+ 	background-position: center;
+}
 
-	header li{
-		display: inline-block;
-		text-align: left;
-		vertical-align: top;
-    	text-decoration: none;
-    	padding: 5px 20px;
-		list-style: none;
-	}
+header li{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+  	text-decoration: none;
+  	padding: 5px 20px;
+	list-style: none;
+}
 
-	header a{
-		color: white;
-	}
+header a{
+	color: white;
+}
 
-	.row
-	{	
-    	max-width: 1200px;
-    	margin: auto;
-	}
+.logo{
+	width: auto;
+ 	height: auto;
+  	float: left;
+ 	margin-top: 0px;
+  	margin-left: 200px;
+}
 
-	.logo{
-		width: auto;
-   		height: auto;
-    	float: left;
-   		margin-top: 0px;
-    	margin-left: 200px;
-	}
+.active {
+	text-decoration: underline;
+}
 
-	.nav
-	{
-	    margin-top: 50px;
-	    margin-left: 50px;
-	}
+.login
+{
+	text-align: left;
+	vertical-align: top;
+    list-style: none;
+    margin-left: 125px;
+}
 
-	.active {
-		text-decoration: underline;
-	}
+.login li b
+{
+    color: rgb(26, 26, 110);
+    background-color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 5px;
+}
 
-	.login
-	{
-		text-align: right;
-		vertical-align: top;
-	    list-style: none;
-	    margin-top: -40px;
-	    margin-left: 125px;
-	}
-	
-	.login li b
-	{
-	    color: rgb(26, 26, 110);
-	    background-color: rgb(255, 255, 255);
-	    padding: 12px 30px;
-	    border-radius: 5px;
-	}
-
-	.main
-	{
-    	position: absolute;
-    	width: 1200px;
-    	margin-left: 0px;
-    	margin-top: 0px;
-	}
+.main
+{
+  	position: absolute;
+  	width: 1200px;
+  	margin-left: 0px;
+  	margin-top: 100px;
+	line-height: 32px; 
+}
 
 
-	h1 {
-		font-size: 60px;
-		color: white;
-		text-align: left;
-    	margin-left: 250px;
-    	margin-top: 200px;
-	}
+h1{
+	font-size: 60px;
+	color: white;
+	text-align: left;
+  	margin-left: 250px;
+  	margin-top: 200px;
+}
 
-	p {
-		color: white;
-    	font-size: 19px;
-    	text-align: left;
-    	margin-top: 50px;
-    	margin-left: 250px;
-	}
+p {
+	color: white;
+  	font-size: 19px;
+  	text-align: left;
+  	margin-top: 50px;
+  	margin-left: 250px;
+}
 
-		.bpar{
-		width: 100px;
-		height: 50px;
-		border: 10px solid rgb(255, 99, 91);
-		border-radius: 8px;
-		background-color: rgb(255, 99, 91);
-		overflow: auto;
-		color: white;
-		margin-top: 50px;
-    	margin-left: 250px;
-	}
+	.bpar{
+	width: 100px;
+	height: 50px;
+	border: 10px solid rgb(255, 99, 91);
+	border-radius: 8px;
+	background-color: rgb(255, 99, 91);
+	overflow: auto;
+	color: white;
+	margin-top: 50px;
+  	margin-left: 250px;
+}
 
-	.page {
-	    position: absolute;
-	    margin-top: 595px;
-	    margin-left: 250px;
-	    background-color: rgb(0, 119, 255);
-	    display: block;
-	    height: 15px;
-	    width: 15px;
-	    border-radius: 50%;
-	    border: 5px solid orange;
-	}
-	
-	.page1 {
-	    position: absolute;
-	    margin-top: 600px;
-	    margin-left: 300px;
-	    background-color: rgb(0, 119, 255);
-	    display: block;
-	    height: 15px;
-	    width: 15px;
-	    border-radius: 50%;
-	}
-	
-	.page2 {
-	    position: absolute;
-	    margin-top: 600px;
-	    margin-left: 350px;
-	    background-color: rgb(0, 119, 255);
-	    display: block;
-	    height: 15px;
-	    width: 15px;
-	    border-radius: 50%;
-	}
-	
-	.page3 {
-	    position: absolute;
-	    margin-top: 600px;
-	    margin-left: 400px;
-	    background-color: rgb(0, 119, 255);
-	    display: block;
-	    height: 15px;
-	    width: 15px;
-	    border-radius: 50%;
-	}
+.page {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 250px;
+    background-color: rgb(0, 119, 255);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 5px solid orange;
+}
+
+.page1 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 300px;
+    background-color: rgb(0, 119, 255);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.page2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 350px;
+    background-color: rgb(0, 119, 255);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.page3 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 400px;
+    background-color: rgb(0, 119, 255);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
