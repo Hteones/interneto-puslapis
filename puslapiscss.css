@@ -5,9 +5,10 @@ body {
  	background-size: fixed;
  	background-position: center center;
  	background-repeat: no-repeat;
+ 	margin-left: 10vw !important;
 }
 
-header li{
+.nav li{
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
@@ -24,7 +25,6 @@ header a{
  	height: auto;
   	float: left;
  	margin-top: 0px;
-  	margin-left: 10vw !important;
 }
 
 .active {
@@ -51,7 +51,6 @@ header a{
   	position: absolute;
   	width: 1200px;
   	margin-top: 20px;
-  	margin-left: 10vw !important;
 }
 
 
@@ -69,7 +68,7 @@ p {
   	margin-top: 50px;
 }
 
-	.bpar{
+.bpar{
 	border: 10px solid rgb(255, 99, 91);
 	border-radius: 8px;
 	background-color: rgb(255, 99, 91);
@@ -79,8 +78,7 @@ p {
 
 .page {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 10vw !important;
+    margin-top: 530px;
     background-color: rgb(0, 119, 255);
     display: block;
     height: 15px;
@@ -91,8 +89,7 @@ p {
 
 .page1 {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 12vw !important;
+    margin-top: 530px;
     background-color: rgb(0, 119, 255);
     display: block;
     height: 15px;
@@ -102,8 +99,7 @@ p {
 
 .page2 {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 14vw !important;
+    margin-top: 530px;
     background-color: rgb(0, 119, 255);
     display: block;
     height: 15px;
@@ -113,8 +109,7 @@ p {
 
 .page3 {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 16vw !important;
+    margin-top: 530px;
     background-color: rgb(0, 119, 255);
     display: block;
     height: 15px;
