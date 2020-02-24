@@ -20,6 +20,10 @@ header a{
 	color: white;
 }
 
+.navbar-nav{
+  margin-left: -15px;
+}
+
 .logo{
 	width: auto;
  	height: auto;
@@ -28,23 +32,21 @@ header a{
 }
 
 .active {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .login
 {
     list-style: none;
     margin-left: 125px;
-    text-align: right;
+    text-align: center;
 }
 
-.login li b
+.login li a
 {
-    color: rgb(26, 26, 110);
-    background-color: rgb(255, 255, 255);
-    padding: 12px 30px;
-    border-radius: 5px;
+    color: rgb(255, 0, 0);
 }
+
 
 .main
 {
@@ -116,3 +118,48 @@ p {
     width: 15px;
     border-radius: 50%;
 }
+
+#popupbox{
+    margin: 0; 
+    margin-left: 40%; 
+    margin-right: 40%;
+    margin-top: 50px; 
+    padding-top: 10px; 
+    width: 20%; 
+    height: 210px; 
+    position: absolute; 
+    background: #886A77; 
+    border: solid #491956 2px; 
+    color: rgb(40, 200, 0);
+    z-index: 9; 
+    font-family: arial; 
+    visibility: hidden; 
+}
+
+#signupbox{
+    margin: 0; 
+    margin-left: 40%; 
+    margin-right: 40%;
+    margin-top: 50px; 
+    padding-top: 10px; 
+    width: 20%; 
+    height: 320px; 
+    position: absolute; 
+    background: #886A77; 
+    border: solid #491956 2px; 
+    color: rgb(40, 200, 0);
+    z-index: 9; 
+    font-family: arial; 
+    visibility: hidden; 
+}
+
+#popupbox a{
+  color: rgb(40, 200, 0);
+
+}
+
+#signupbox a{
+  color: rgb(40, 200, 0);
+
+}
+
