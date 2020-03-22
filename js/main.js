@@ -13,13 +13,13 @@ function closeForm() {
 }
 
 function background1() {
-    document.body.style.backgroundImage  = "url('../lab2/img/1.jpg')";
+    document.body.style.backgroundImage  = "url('1.jpg')";
 }
 function background2() {
-    document.body.style.backgroundImage  = "url('../lab2/img/2.jpg')";
+    document.body.style.backgroundImage  = "url('2.jpg')";
 }
 function background3() {
-    document.body.style.backgroundImage  = "url('../lab2/img/3.jpg')";
+    document.body.style.backgroundImage  = "url('3.jpg')";
 }
 
 
