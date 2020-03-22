@@ -1,0 +1,382 @@
+body {
+    padding-left: 5vw;
+    padding-right: 0.5vw;
+    margin: 0;
+    margin-top: 0;
+    display: block;
+    background-image: url('front_page_PNG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-brand{
+    width: 250px;
+}
+
+
+a.nav-link {
+    color: white !important;
+}
+
+
+
+a.nav-link.active {
+    text-decoration: none;
+    border-bottom: 3px solid white !important;
+    border-bottom-width: 15px;
+}
+
+
+.container {
+    max-width: 1770px;
+}
+
+
+.btn.signin {
+    color: black !important;
+    background-color: white !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+    
+}
+
+
+.btn.signup {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+
+.containerr {
+    height: 80%;
+    width: 80%;
+    margin: 30px 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+}
+
+
+.headline {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.subtext{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+btn{
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #FF5569;
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 13vh;
+    width: 150px;
+    line-height: 35px;
+    }
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #20252B;
+    color: grey;
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.allCirlces{
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.circle{
+    background-color: cornflowerblue;
+    margin-right: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+.activeCircle{
+    background-color: cornflowerblue;
+    border: 2px solid darkgoldenrod;
+    box-sizing: border-box;
+    margin-right: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+.circle:hover{
+    background-color: cornflowerblue;
+    border: 2px solid darkgoldenrod;
+    margin-right: 25px;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+     cursor: pointer;
+}
+
+
+@media (min-width: 50em) {
+    .headline {
+        font-size: 5.5vw;
+        font-weight: bolder;
+    }
+}
+
+
+@media (min-width: 70em) {
+    .subtext{
+        margin-top: 25px;
+        font-size: 1.2vw;
+        font-weight: 100;
+    }
+    .navbar-brand{
+        width: 325px;
+    }
+}
+
+
+@media (min-width: 100em) {
+    btn{
+        border-radius: 10px;
+        font-size: 0.9vw;
+        font-weight: 500;
+        background-color: #FF5569;
+        text-align: center;
+        margin-top: 2vw;
+        margin-bottom: 13vh;
+        width: 13vw;
+        line-height: 35px;
+    }
+}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: absolute;
+    right: 15px;
+    margin: 45px 55px 0px 0px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    border: none;
+    background: #f1f1f1;    
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table-wrapper {
+		width: 700px;
+		margin: 30px auto;
+        background: #fff;
+        padding: 20px;	
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table-title {
+        padding-bottom: 10px;
+        margin: 0 0 10px;
+    }
+    .table-title h2 {
+        margin: 6px 0 0;
+        font-size: 22px;
+    }
+    .table-title .add-new {
+        float: right;
+		height: 30px;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: none;
+		min-width: 100px;
+		border-radius: 50px;
+		line-height: 13px;
+    }
+	.table-title .add-new i {
+		margin-right: 4px;
+	}
+    table.table {
+        table-layout: fixed;
+    }
+    table.table tr th, table.table tr td {
+        border-color: #e9e9e9;
+    }
+    table.table th i {
+        font-size: 13px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    table.table th:last-child {
+        width: 100px;
+    }
+    table.table td a {
+		cursor: pointer;
+        display: inline-block;
+        margin: 0 5px;
+		min-width: 24px;
+    }    
+	table.table td a.add {
+        color: #27C46B;
+    }
+    table.table td a.edit {
+        color: #FFC107;
+    }
+    table.table td a.delete {
+        color: #E34724;
+    }
+    table.table td i {
+        font-size: 19px;
+    }
+	table.table td a.add i {
+        font-size: 24px;
+    	margin-right: -1px;
+        position: relative;
+        top: 3px;
+    }    
+    table.table .form-control {
+        height: 32px;
+        line-height: 32px;
+        box-shadow: none;
+        border-radius: 2px;
+    }
+	table.table .form-control.error {
+		border-color: #f50000;
+	}
+	table.table td .add {
+		display: none;
+	}
+
+
+
+
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+
+.green{
+  background-color:#6fb936;
+}
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:85px;
+        }
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+
+
+
+
+
